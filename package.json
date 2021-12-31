@@ -1,0 +1,11 @@
+{
+  "name": "movieApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alicehan1734/movieApi_GraphQL.git",
+  "author": "heeyeonhan <heeyeonh3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
