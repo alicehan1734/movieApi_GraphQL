@@ -1,11 +1,31 @@
 {
-  "name": "movieApi",
+  "name": "movieapi_graphql",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/alicehan1734/movieApi_GraphQL.git",
-  "author": "heeyeonhan <heeyeonh3@gmail.com>",
-  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicehan1734/movieApi_GraphQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicehan1734/movieApi_GraphQL/issues"
+  },
+  "homepage": "https://github.com/alicehan1734/movieApi_GraphQL#readme",
+  "description": "",
   "dependencies": {
-    "graphql-yoga": "^1.18.3"
+    "graphql": "^16.2.0",
+    "graphql-yoga": "^2.0.0-alpha.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "nodemon": "^2.0.15"
   }
 }
